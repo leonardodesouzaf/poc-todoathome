@@ -1,0 +1,8 @@
+POST: /task
+Body: { "task": "Lavar a louça", "description": "Lavar todas as louças antes que comecem a preparar o almoço", "nickname": "Leo Souza", date": "14/11/2022" }
+
+GET: /task/:nickname
+
+PUT: /task/:taskId
+
+DELETE: /task/:taskId
