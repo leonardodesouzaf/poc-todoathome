@@ -4,11 +4,52 @@
 
 <h2 align="left">About</h2>
 
-###
+ToDoAtHome it's a conceptual approach of an organizator/schedule app for families or groups that live in the same place, this project is a proof of concept, a way to train my skills with TypeScript, on this I've created a simple back-end where it's possible to creat tasks with a responsible person and a deadline, it also can update done tasks or delete them too.
+## API Documentation
 
-<p align="left"> ToDoAtHome it's a conceptual approach of an organizator/schedule app for families or groups that live in the same place, this project is a proof of concept, a way to train my skills with TypeScript, on this I've created a simple back-end where it's possible to creat tasks with a responsible person and a deadline, it also can update done tasks or delete them too. </p>
 
-###
+#### Create a task
+
+```http
+  POST: /task
+
+  Body: { "task": "Clean up the bedroom",
+  "description": "When I wake up I'll clean up my bedroom",
+  "nickname": "Leo Souza",
+  "date": "14/11/2022" }
+
+```
+
+
+#### Get the member tasks
+
+```http
+  GET: /task/:nickname
+```
+
+| Parameter   | Type       | Description                         |
+| :---------- | :--------- | :---------------------------------- |
+| `nickname` | `string` | **Required**. A member nickname. |
+
+#### Update a member task
+
+```http
+  PUT: /task/:taskId
+```
+
+| Parameter   | Type       | Description                         |
+| :---------- | :--------- | :---------------------------------- |
+| `taskId` | `string` | **Required**. The task id on the DB. |
+
+```http
+  DELETE: /task/:taskId
+```
+
+| Parameter   | Type       | Description                         |
+| :---------- | :--------- | :---------------------------------- |
+| `taskId` | `string` | **Required**. The task id on the DB. |
+
+
 
 
 <div align="center">
