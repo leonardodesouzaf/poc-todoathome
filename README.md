@@ -35,7 +35,7 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 
 #### Get the member tasks
 
-```http
+```
   GET: /task/:nickname
 ```
 
@@ -45,7 +45,7 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 
 #### Update a member task
 
-```http
+```
   PUT: /task/:taskId
 ```
 
@@ -55,7 +55,7 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 
 #### Delete a member task
 
-```http
+```
   DELETE: /task/:taskId
 ```
 
