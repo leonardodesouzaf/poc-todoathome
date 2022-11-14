@@ -53,6 +53,8 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 | :---------- | :--------- | :---------------------------------- |
 | `taskId` | `string` | **Required**. The task id on the DB. |
 
+#### Delete a member task
+
 ```http
   DELETE: /task/:taskId
 ```
