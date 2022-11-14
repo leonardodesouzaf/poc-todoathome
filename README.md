@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left"> ToDoAtHome it's a conceptual approach of an organizator/schedule app for families or groups that live in the same place, this project is a proof of concept, a way to train my skills with TypeScript, on this I've created a simple back-end where it`s possible to creat tasks with a resposible person and a deadline, it also can update done tasks or delete them too. </p>
+<p align="left"> ToDoAtHome it's a conceptual approach of an organizator/schedule app for families or groups that live in the same place, this project is a proof of concept, a way to train my skills with TypeScript, on this I've created a simple back-end where it's possible to creat tasks with a responsible person and a deadline, it also can update done tasks or delete them too. </p>
 
 ###
 
