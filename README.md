@@ -23,9 +23,9 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 #### Create a task
 
 ```json
-  POST: /task
+  POST /task
 
-  Body: { "task": "Clean up the bedroom",
+  Body = { "task": "Clean up the bedroom",
   "description": "When I wake up I'll clean up my bedroom",
   "nickname": "Leo Souza",
   "date": "14/11/2022" }
