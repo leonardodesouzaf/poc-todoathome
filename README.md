@@ -22,7 +22,7 @@ ToDoAtHome it's a conceptual approach of an organizator/schedule app for familie
 
 #### Create a task
 
-```json
+```javascript
   POST /task
 
   Body = { "task": "Clean up the bedroom",
